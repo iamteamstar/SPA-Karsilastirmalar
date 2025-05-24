@@ -26,7 +26,7 @@ Bu proje, tek sayfa uygulamaların (SPA) üç farklı render stratejisi olan **C
 Node.js yüklü olmalıdır. (v18+ önerilir)
 
 ```bash
-# CSR projesi (Vite + React)
+## CSR projesi (Vite + React)
 cd csr-proje
 npm install
 npm run dev
@@ -38,7 +38,7 @@ npm install
 npm run dev
 # http://localhost:3000
 
-🔍 Test Araçları
+## 🔍 Test Araçları
  Chrome Lighthouse (Performance + SEO)
 
  WebPageTest (isteğe bağlıdır)
@@ -52,21 +52,18 @@ Lighthouse Sonuçları (Özet)
 | SSR    | 100 | 48          | 1.0s | 9.4s | 1760ms |
 | SSG    | 100 | 40          | 1.0s | 9.5s | 1910ms |
 
-Önerilen Kullanım Senaryoları
+## Önerilen Kullanım Senaryoları
 | Durum                                     | En Uygun Yöntem   |
 | ----------------------------------------- | --------------    |
 | SEO öncelikli sayfa (Blog, Ürün)          | ✅ SSG / SSR     |
 | Sık değişen veri, kullanıcıya özel içerik | ✅ SSR           |
 | Hızlı SPA deneyimi, az sayfa değişimi     | ✅ CSR           |
 
-Katkı ve Geliştirme
+## Katkı ve Geliştirme
 Bu repo akademik amaçlı hazırlanmıştır. Forklayabilir, yıldız verebilir ya da katkıda bulunabilirsiniz ⭐
 
-Lisans
+## Lisans
 MIT Lisansı.
 
----
-
-İstersen bu dosyayı `.md` olarak dışa aktarabilir veya doğrudan GitHub reposuna ekleyebilirim.
 
 
